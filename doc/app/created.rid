@@ -1,0 +1,9 @@
+Tue, 19 Apr 2016 20:52:17 -0300
+README.rdoc	Thu, 16 Jul 2015 12:45:23 -0300
+app/controllers/app_controller.rb	Mon, 18 Apr 2016 22:14:45 -0300
+app/controllers/application_controller.rb	Thu, 16 Jul 2015 12:45:23 -0300
+app/helpers/application_helper.rb	Thu, 16 Jul 2015 12:45:23 -0300
+app/models/calculates.rb	Mon, 18 Apr 2016 22:13:32 -0300
+app/models/directions.rb	Fri, 17 Jul 2015 01:16:57 -0300
+app/models/plan.rb	Thu, 16 Jul 2015 22:39:11 -0300
+app/models/rover.rb	Mon, 18 Apr 2016 22:11:38 -0300

@@ -1,0 +1,44 @@
+.container {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 11;
+    background-image: url("/app/assets/images/2.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.container .content {
+    background-color: white;
+    width: 70%;
+    margin-top: 20px;
+    display: inline-block;
+    padding-bottom: 40px;
+}
+
+.container .content .title {
+    color: rgb(197, 12, 12);
+    font-size: 24pt;
+}
+
+input#calculate {
+    margin-top: 10px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css.scss, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+

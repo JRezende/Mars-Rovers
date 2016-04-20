@@ -1,0 +1,49 @@
+<%= form_tag 'app/results' do %>
+
+    <h2> Defina o tamanho do plano</h2>
+    <span>Sendo a posição inicial 0 0, defina qual a posição final.</span>
+    <span>Exemplo: 10 10</span>
+
+    <div class="control-group">
+      <%= label_tag 'Posição final do plano:' %>
+      <div class="controls">
+        <%= text_field_tag :coord_upper,'', required: true %>
+      </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <h2> Indique a posição inicial</h2>
+    <span>Para indicar a posição defina um ponto dentro do plano mais a direção N, E, S ou W.</span>
+    <span>Exemplo: 3 3 E</span>
+
+    <div class="initial_position ">
+      <div class="control-group">
+        <%= label_tag 'Posição inicial:' %>
+        <div class="controls">
+          <%= text_field_tag "initial_position",'', required: true %>
+        </div>
+      </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <h2> Indique os comandos de direção</h2>
+    <span>Os comandos são L (virar para esquerda), R (virar para direita) e M (avançar na mesma direção).</span>
+    <span>Exemplo: MMRMMRMRRM</span>
+
+
+    <div class="command">
+      <div class="control-group">
+        <%= label_tag 'Comandos:' %>
+        <div class="controls">
+          <%= text_field_tag "commands", '', required: true %>
+        </div>
+      </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <%= submit_tag 'Calcular', id: 'calculate', name: 'calculate', value: 'Calcular', class:'btn btn-default'%>
+
+<% end %>

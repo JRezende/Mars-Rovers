@@ -1,0 +1,19 @@
+== Welcome to Rails
+
+== Getting Started
+
+Acesse o diretório raiz do projeto pela linha de comando e rode os seguintes comandos:
+
+1. bundle install
+
+2. gem install bundler
+
+3. bundle exec rake db:create
+
+4. bundle exec rake db:test:prepare
+
+5. Para rodar os testes rode o comando rspec
+
+6. Para rodar a aplaicação use o comando rails server
+
+7. Acesse http://localhost:3000/ para utilizar a aplicação

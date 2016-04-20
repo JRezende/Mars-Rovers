@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mars Rovers</title>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="container">
+  <div class="content">
+    <h1 class="title">Mars Rovers</h1>
+    <div class="msgError">
+      <%= flash[:error] %>
+    </div>
+    <%= yield %>
+  </div>
+</div>
+</body>
+</html>

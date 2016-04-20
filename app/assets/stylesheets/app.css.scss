@@ -1,0 +1,117 @@
+*{
+  font-family: 'Montserrat', Arial;
+}
+
+body{
+  top: 0;
+  left: 0;
+  z-index: 11;
+  background: image-url("2.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .container {
+    text-align: center;
+
+    .content {
+      background-color: rgba(0,0,0,0.5);
+      width: 70%;
+      margin-top: 20px;
+      display: inline-block;
+      text-align: left;
+      padding: 15px 15px 40px;
+
+      .msgError {
+        color: #F00;
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      .title{
+        color: #2EB0F4;
+        text-align: center;
+        font-size: 35px;
+        margin-top: 3px;
+        margin-bottom: 10px;
+      }
+
+      h2{
+        font-size: 20px;
+        margin-bottom: 5px;
+        color: rgb(231, 244, 46);
+      }
+
+      .result{
+        padding: 10px 15px;
+        color: #2EB0F4;
+      }
+
+      form{
+        color: #FFF;
+
+        span {
+          font-size: 16px;
+          margin: 0;
+          clear: both;
+          display: block;
+          font-style: italic;
+        }
+
+        .control-group{
+          padding: 15px 10px;
+
+          label{
+            font-size: 16px;
+            float: left;
+            margin-right: 5px;
+            line-height: 35px;
+          }
+
+          input[type="text"], input[type="text"]:active{
+            width: 200px;
+            font-size: 16px;
+            height: 24px;
+            border: 2px solid transparent;
+            border-radius: 10px;
+            float: left;
+            outline: none;
+            padding: 5px;
+            &:active, &:focus, &:hover{
+              border: 2px solid #2EB0F4;
+            }
+          }
+        }
+      }
+
+      .btn{
+        background: #000;
+        color: #FFF;
+        text-align: center;
+        width: 200px;
+        height: 40px;
+        line-height: 38px;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+        margin: 15px 0;
+        border: 2px solid #000;
+        display: block;
+        text-decoration: none;
+
+        &:hover, &:active, &:focus{
+          color: #2EB0F4;
+          border: 2px solid #2EB0F4;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.clearfix{
+  display: table;
+  content: '';
+  clear: both;
+}
